@@ -59,7 +59,7 @@ programmer_hash[:dennis_ritchie][:languages][0];
 #research ways to make "0" dynamic
 dynamic = ""
 programmer_hash[:dennis_ritchie][:languages][].length > |index| ? 
-  dynamic = dynamic + programmer_hash[:dennis_ritchie][:languages][index] 
+  dynamic = dynamic + programmer_hash[:dennis_ritchie][:languages][index] : 
 end
 
 def adding_matz
