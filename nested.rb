@@ -59,7 +59,7 @@ def dennis_ritchies_language
 #ways to make "0" dynamic
 dynamic = "";
   programmer_hash[:dennis_ritchie][:languages].length.times do |index|
-    dynamic = (dynamic + programmer_hash[:dennis_ritchie][:languages][index];
+    dynamic = dynamic + programmer_hash[:dennis_ritchie][:languages][index];
   end
   dynamic;
   puts programmer_hash[:dennis_ritchie][:languages].length;
