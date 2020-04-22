@@ -56,12 +56,13 @@ def dennis_ritchies_language
       }
     }
 #programmer_hash[:dennis_ritchie][:languages][0];
-#research ways to make "0" dynamic
+#ways to make "0" dynamic
 dynamic = "";
   programmer_hash[:dennis_ritchie][:languages].length.times do |index|
-    dynamic = dynamic + programmer_hash[:dennis_ritchie][:languages][index];
+    dynamic = (dynamic + programmer_hash[:dennis_ritchie][:languages][index];
   end
   dynamic;
+  puts programmer_hash[:dennis_ritchie][:languages].length;
 end
 puts dennis_ritchies_language;
 def adding_matz
