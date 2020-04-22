@@ -64,7 +64,7 @@ dynamic = "";
   programmer_hash[:dennis_ritchie][:languages].length.times do |index|
     dynamic = dynamic + programmer_hash[:dennis_ritchie][:languages][index];
   end
-  puts dynamic;
+  dynamic;
 end
 puts dennis_ritchies_language;
 def adding_matz
