@@ -64,9 +64,9 @@ dynamic = "";
   programmer_hash[:dennis_ritchie][:languages][].length.times do |index|
     dynamic = dynamic + programmer_hash[:dennis_ritchie][:languages][index];
   end
-  dynamic;
+  puts dynamic;
 end
-
+puts dennis_ritchies_language;
 def adding_matz
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
