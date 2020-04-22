@@ -61,7 +61,7 @@ def dennis_ritchies_language
   length = programmer_hash[:dennis_ritchie][:languages].length;
   programmer_hash[:dennis_ritchie][:languages].length.times do |index|
     index_string = programmer_hash[:dennis_ritchie][:languages][index];
-    dynamic = ((length - 1) > index ? (dynamic + index_string + " ") : (dynamic + index_string));
+    dynamic = ((length - 1) > index ? (dynamic + index_string + ", ") : (dynamic + index_string));
     dynamic;
   end
   dynamic;
