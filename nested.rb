@@ -57,11 +57,11 @@ def dennis_ritchies_language
     }
 #programmer_hash[:dennis_ritchie][:languages][0];
 #ways to make "0" dynamic
-dynamic = "";
+  dynamic = "";
+  length = programmer_hash[:dennis_ritchie][:languages].length;
   programmer_hash[:dennis_ritchie][:languages].length.times do |index|
-    ((programmer_hash[:dennis_ritchie][:languages].length - 1) > index ? 
-      (dynamic = (dynamic + programmer_hash[:dennis_ritchie][:languages][index] + " ")) : 
-      (dynamic = (dynamic + programmer_hash[:dennis_ritchie][:languages][index])));
+    index_string = programmer_hash[:dennis_ritchie][:languages][index];
+    dynamic = ((length - 1) > index ? (dynamic + index_string + " ") : (dynamic + index_string));
     dynamic;
   end
   dynamic;
