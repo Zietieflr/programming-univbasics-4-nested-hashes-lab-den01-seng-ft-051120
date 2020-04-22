@@ -61,7 +61,7 @@ dynamic = "";
 #(index = 0, programmer_hash[:dennis_ritchie][:languages][].length > index) ? 
 #  (dynamic = dynamic + programmer_hash[:dennis_ritchie][:languages][index], index += 1) : 
 #return  dynamic;
-  programmer_hash[:dennis_ritchie][:languages][].length.times do |index|
+  programmer_hash[:dennis_ritchie][:languages].length.times do |index|
     dynamic = dynamic + programmer_hash[:dennis_ritchie][:languages][index];
   end
   puts dynamic;
